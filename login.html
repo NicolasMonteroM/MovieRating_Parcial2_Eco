@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating - Login</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <form class="form login">
+        <h2 class="form__title">Log In</h2>
+
+        <label class="form__label">
+            <input required type="email" name="email" placeholder="Your name" />
+        </label>
+
+        <label class="form__label">
+            <input required type="password" name="password" placeholder="Your password" />
+        </label>
+
+        <p class="form__error hidden">
+            Incorrect log in information.
+        </p>
+
+        <button class="form__btn" type="submit">
+            Enter
+        </button>
+
+        <a href="./signup.html">I don't have an account yet</a>
+    </form>
+</body>
+
+</html>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+<script src="scripts/firebase.js"></script>
+<script src="scripts/login.js"></script>
