@@ -418,6 +418,11 @@ input:checked ~ label {
   color: white;
 }
 
+.form__error {
+  color: black;
+  padding: 20px;
+}
+
 h1 {
   color: #ffffff;
   font-size: 32px;

@@ -1,5 +1,4 @@
-.form{
-
+.form {
     height: 100vh;
     position: relative;
     display: flex;
@@ -9,15 +8,13 @@
     align-items: center;
     justify-content: center;
 
-
-    input{
-        
+    input {
         color: white;
         font-size: 16px;
         padding: 25px;
         height: 40px;
         font-family: $font;
-       
+
         width: 400px;
         background-color: rgb(0, 0, 0);
 
@@ -31,7 +28,6 @@
             outline: none;
             border: 1px solid rgb(255, 255, 255) !important;
         }
-
     }
 
     &__label {
@@ -43,11 +39,9 @@
         padding-bottom: 15px;
     }
 
-    &__title{
-
+    &__title {
         color: rgb(255, 255, 255);
         padding: 30px;
-
     }
 
     &__btn {
@@ -72,6 +66,11 @@
             background-color: black;
             color: white;
         }
+    }
 
+    &__error {
+
+        color: rgb(0, 0, 0);
+        padding: 20px;
     }
 }
